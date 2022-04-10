@@ -19,7 +19,7 @@ with data_sets:
     st.header ('Sallary Prediction App!')
     st.text('This app predicts the Sallary based on age, distance and experience!')
     # Import data set
-    df = pd.read_csv(r'C:\Users\muyyassarhussain\Desktop\App_salary\ml_data_salary.csv')
+    df = pd.read_csv(r'ml_data_salary.csv')
     df = df.dropna()
     st.write(df.head(10))
     st.subheader('Different ages in the data')
